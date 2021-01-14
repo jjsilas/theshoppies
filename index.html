@@ -10,32 +10,40 @@
 
 <body>
     <section main class="main">
+
         <h1 class="mainShell">The Shoppies</h1>
 
-        <div class="titleForSearch"> Movie Titles</div>
-
-        <div class="searchShell">Search</div>
-
-
-
-
-
-        <section class="searchResults">Search for "ram"</section>
-        <ul>Results for "..."
-            <li>result 1</li>
-            <li>result 2</li>
-            <li>result 3</li>
-
-        </ul>
+        <section class="search">
+            <div class="titleForSearch"> Movie title</div>
+            <div class="searchBar">
+                <input type="text" placeholder="Search. . . ">
+            </div>
+        </section>
 
 
+        <section class="resultsAndNotifications">
 
-        <section class="noniminations">Noniminations</section>
-        <ul>
-            <li>example</li>
-        </ul>
+            <div class="searchResults">
+                <h3>
+                    <ul id="searchResultsTitle">Results for "..."
+                </h3>
+                <li class="resultsLines">result 1<button class="buttonRes" type="button">Noniminate</button></li>
+                <li class="resultsLines">result 2<button class="buttonRes" type="button">Noniminate</button></li>
+                <li class="resultsLines">result 3<button class="buttonRes" type="button">Noniminate</button></li>
 
-    </section>
+                </ul>
+
+            </div>
+
+            <div class="noniminations">
+                <h3>
+                    <ul id="noniminateTitle">Nonimination</ul>
+                </h3>
+                <li class="noniminationLines">example<button class="buttonNom" type="button">Remove</button></li>
+                </ul>
+            </div>
+        </section>
+
 </body>
 
 </html>
