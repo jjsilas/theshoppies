@@ -27,8 +27,8 @@ border: 1px solid rgb(200, 200, 200);
 padding: 15px;
 }
 
-
-.searchBar input[type=text] {
+/* Search Bar */
+#searchBar input[type=text] {
     width: 95%;
 }
 /* block section */
