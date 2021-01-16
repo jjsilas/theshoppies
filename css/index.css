@@ -2,14 +2,19 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+body {
+
+    background: rgb(151, 154, 190);
+    max-width: 85%;
+}
 .main {
-background-color: rgb(217, 218, 231);
+
 padding-top: 2%; 
 padding-left:5%;
 padding-right: 5%;
 padding-bottom: 2%;
 margin-left: 100px;
-max-width: 90%;
+height: 100%;
 
 }
 
@@ -25,45 +30,38 @@ max-width: 90%;
     background: blanchedalmond;
 border: 1px solid rgb(200, 200, 200);
 padding: 15px;
+
+}
+
+.containerOne {
+    border: 1px solid grey;
+    padding: 15px;
+    background:white;
+}
+
+.filmResults {
+    border: 1px solid grey;
+    margin-top: 3%;
+    padding: 15px;
+    background:white;
+    height: 100vh;
 }
 
 /* Search Bar */
-#searchBar input[type=text] {
+#searchForm input[type=text] {
     width: 95%;
-}
-/* block section */
-.resultsAndNotifications {
-display:inline-flex;
+    padding:10px;
+    border: 2px solid grey;
 }
 
-
-
-.searchResults {
-    background: blanchedalmond;
-    border: 1px solid rgb(200, 200, 200);
-width: 500px;    
-margin-right: 50px;
-margin-top: 15px;
-padding-bottom: 15px;
-}
-
-
-
-
-.buttonRes, .buttonNom{
-    margin-left: 5%;
-}
-
-
-.resultsLines, .noniminationLines{
-    margin-left: 15px;
-}
-
-.noniminations {
-background: blanchedalmond;
-border: 1px solid rgb(200, 200, 200);
-    width: 100%;    
-margin-right: 50px;
-margin-top: 15px;
+ #movies {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3%;
+    max-height: 50px;
+    padding:5px;
+    
+    
 
 }
+
